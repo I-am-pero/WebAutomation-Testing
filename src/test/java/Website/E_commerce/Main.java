@@ -29,6 +29,7 @@ import Website.TestComponents.BaseTest;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Main extends BaseTest {
+	/* Comment*/
 	String addToCart = "ZARA COAT 3";
 
 	@Test(dataProvider = "getData", groups = { "Purchase" })
